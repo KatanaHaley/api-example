@@ -1,0 +1,27 @@
+{
+  "name": "api-challenge",
+  "version": "1.0.0",
+  "description": "Vizion API Challenge",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "rm -rf build/ && prettier --write source/ && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "node scripts/bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.14",
+    "axios": "^1.1.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
